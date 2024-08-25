@@ -24,7 +24,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999999999))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @EMMA_X_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID",  6679515346))
+OWNER_ID = int(getenv("OWNER_ID",  6903379369))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -41,8 +41,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "anokhikeduniya")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "anokhikeduniya")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "SKD_GROUP_2")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "SKD_GROUP_2")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -128,11 +128,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "7178932244"))
+OWNER_ID = int(getenv("OWNER_ID", "6903379369"))
 MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "pikachuworld0099")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "anokhikeduniya")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@ll_SB_ANGLE_ll")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "SKD_GROUP_2")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "SKD_GROUP_2")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@ll_SB_SIMPLE_ll")
 
 # Random Start Images
 IMG = [
